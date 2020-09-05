@@ -15,6 +15,7 @@ jobs:
 
     - name: Init
       run: |
+        
         chmod -R 777 ./IBM_Cloud_CLI/
         ./IBM_Cloud_CLI/ibmcloud config --check-version=false
     - name: Login IBM Cloud
